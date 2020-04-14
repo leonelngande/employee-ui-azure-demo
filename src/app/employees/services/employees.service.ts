@@ -9,7 +9,7 @@ import {map} from 'rxjs/operators';
 })
 export class EmployeesService {
 
-  private employeesUrl = '/assets/employees.json';
+  private employeesUrl = './assets/employees.json';
 
   constructor(private http: HttpClient) {
   }
