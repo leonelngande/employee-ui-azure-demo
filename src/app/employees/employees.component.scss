@@ -1,0 +1,15 @@
+table {
+  width: 100%;
+}
+
+tr.employee__row:not(.example-expanded-row):hover {
+  background: whitesmoke;
+}
+
+tr.employee__row:not(.example-expanded-row):active {
+  background: #efefef;
+}
+
+.employee__row td {
+  border-bottom-width: 0;
+}
